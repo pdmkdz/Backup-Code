@@ -1,9 +1,10 @@
-'''
+```
 5/20/2020
 Create gift from list of images
 it needs testing
 '''
 
+```python
 import glob
 from PIL import Image
 
@@ -15,3 +16,4 @@ fp_out = "/path/to/image.gif"
 img, *imgs = [Image.open(f) for f in sorted(glob.glob(fp_in))]
 img.save(fp=fp_out, format='GIF', append_images=imgs,
          save_all=True, duration=200, loop=0)
+'''
