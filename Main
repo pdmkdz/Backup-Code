@@ -11,7 +11,7 @@ sns.set_style('whitegrid')
 customPalette = sns.set_palette(sns.color_palette(dKrDcol))
 
 #%%
-#how to replace names in a gorup of strings
+#how to replace names in a group of strings
 def removeSpace(string): 
      return string.replace(" ", "")
 #This is to use for loop iterables items and assign them as variables in the global, can be used without the function as just [i]
